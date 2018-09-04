@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" ><!-- namespace: c -->
+    <lightning:button aura:id="my-button"
+                      variant="brand" 
+                      label="Click me" 
+                      title="My button"
+                      onclick="{! c.handleClick }"/> <!-- namespace: lightning --> 
+    <c:lockerServiceExampleChild aura:id="child-component"/><!-- namespace: c -->
+
+    <p><a onclick="{!c.example1}">Change lightning:button innerHTML</a></p>
+    <p><a onclick="{!c.example2}">Change lightning:button innerHTML (2)</a></p>
+    <p><a onclick="{!c.example3}">Change c:lockerServiceExampleChild innerHTML</a></p>
+</aura:component>

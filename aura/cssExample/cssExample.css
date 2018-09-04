@@ -1,0 +1,10 @@
+.THIS {
+	font-size:30px;   
+}
+.THIS.first-level {
+    background-color: lightblue;
+}
+
+.THIS .second-level {
+    background-color: lightgreen;
+}

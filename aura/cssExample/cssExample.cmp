@@ -1,0 +1,8 @@
+<aura:component >
+	<div class="first-level">
+        First level div
+    	<div class="second-level">
+            Second level div
+        </div>
+    </div>
+</aura:component>

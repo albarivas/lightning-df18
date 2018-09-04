@@ -1,0 +1,5 @@
+<aura:component >
+    <div class="border">
+		I am a child component
+    </div>
+</aura:component>

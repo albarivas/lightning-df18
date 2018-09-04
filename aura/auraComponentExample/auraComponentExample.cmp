@@ -1,0 +1,5 @@
+<aura:component>
+	<div aura:id="my-div">
+		<a onclick="{!c.example}">Lightning rocks!</a>
+    </div>
+</aura:component>
